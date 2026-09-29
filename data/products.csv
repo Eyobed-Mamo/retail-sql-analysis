@@ -1,0 +1,21 @@
+product_id,product_name,category,list_price_cents,unit_cost_cents
+1,Wireless Headphones,Electronics,8900,5400
+2,Portable Speaker,Electronics,6500,3900
+3,USB-C Hub,Electronics,4500,2200
+4,Webcam,Electronics,7200,4200
+5,Wireless Mouse,Electronics,3200,1500
+6,Desk Lamp,Home,4200,1900
+7,Throw Blanket,Home,3800,1600
+8,Storage Set,Home,2900,1200
+9,Coffee Press,Home,3500,1500
+10,Wall Clock,Home,2700,1100
+11,Yoga Mat,Fitness,3400,1300
+12,Resistance Bands,Fitness,2400,800
+13,Water Bottle,Fitness,2200,700
+14,Foam Roller,Fitness,3000,1100
+15,Jump Rope,Fitness,1800,600
+16,Notebook Set,Office,1600,500
+17,Desk Organizer,Office,2500,900
+18,Laptop Stand,Office,4800,2100
+19,Pen Set,Office,1200,300
+20,Monitor Riser,Office,3900,1700
