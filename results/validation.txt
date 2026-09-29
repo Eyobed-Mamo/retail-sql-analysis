@@ -1,0 +1,12 @@
+PASS: database_integrity
+PASS: foreign_keys
+PASS: no_orders_before_signup
+PASS: no_empty_orders
+PASS: all_24_months
+PASS: cohort_month_zero_100_percent
+PASS: retention_bounds
+PASS: no_future_retention
+PASS: source_revenue_reconciliation
+PASS: delivered_order_count
+PASS: category_reconciliation
+PASS: monthly_reconciliation
