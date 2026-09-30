@@ -24,21 +24,13 @@ The database is `retail.db`, query outputs are in `results/`, and the source tab
 
 ## Run it
 
-You need Python 3.10 or newer.
+Needs Python 3.10 or newer.
 
 ```sh
 python build_project.py
 ```
 
-This rebuilds the data, database, and all ten analyses, then checks the numbers. It overwrites generated files, so save any edits first. On Windows you can also double-click `Run Project.cmd`.
-
-To run one query:
-
-```sh
-python run_query.py sql/02_monthly_growth_analysis.sql
-```
-
-Don't run the schema file on its own. It wipes the database. The queries are written for SQLite, so date functions would need changes for other databases.
+This rebuilds the data, database, and all ten analyses. It overwrites generated files, so save any edits first.
 
 ## Data model
 
@@ -66,4 +58,6 @@ The `delivered_order_totals` view rolls line items up to one row per delivered o
 | 09 Order outcomes | What share is cancelled or refunded? | Subquery, percentages |
 | 10 Customer concentration | How much revenue comes from the top 10%? | ROW_NUMBER, window counts |
 
-##
+## Validation
+
+Each build checks database integrity, matches revenue against the source records, and verifies the cohort numbers. Results are in [validation.txt](results/validation.txt). Extra tests for the trickier queries run with `python test_queries.py`.
