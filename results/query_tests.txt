@@ -1,0 +1,8 @@
+Executed test_queries.py against independent in-memory fixtures.
+PASS: Order grain, line discounts, and cancelled/refunded exclusions
+PASS: Zero-revenue months and undefined growth
+PASS: Repeat-purchase denominator
+PASS: Cohort customer deduplication, zero activity, and future-month exclusion
+PASS: Nonpurchasers retained in regional denominator
+PASS: Top-decile rounding for small customer populations
+6 tests passed.
